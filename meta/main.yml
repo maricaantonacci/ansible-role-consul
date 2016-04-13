@@ -9,7 +9,8 @@ galaxy_info:
     versions:
     - trusty
   galaxy_tags: 
-   - discovery, consul
+   - discovery
+   - consul
 
 dependencies: 
   - { role: maricaantonacci.ansible-role-docker }
