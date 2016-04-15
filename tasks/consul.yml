@@ -1,6 +1,3 @@
-- include: dnsmasq.yml
-- include: consul.yml
-
 - name: Install python-consul
   pip:  name=python-consul  state=present
 
